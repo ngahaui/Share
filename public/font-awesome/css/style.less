@@ -1,0 +1,163 @@
+@color-nav:#4caf50;
+@color-ul:#1882b8;
+@color-li:#e7f6fe;
+ h3{
+    margin: 2px;
+    padding: 5px;
+    color: #ffffff;
+  }
+.navbar-default {
+  background: @color-nav;
+  border: none;
+  height: auto;
+  .btn-link{
+    padding-top: 5px;
+    color:#ffffff;
+  }
+}
+.navbar-nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-brand{
+  padding-top: 5px;
+}
+
+.search-box {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  height: 38px;
+  background-color: #dadada;
+  &:hover,&:active,&:focus{
+    border: 1px solid #fe9b9b;
+    box-shadow: 2px #fe9b9b;
+    .search-btn{
+      color: #fe9b9b;
+    }
+  }
+  input[type=text]{
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+  }
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  color: #aaa;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 5px;
+  color: #fe9b9b;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.danh-muc{
+  background: @color-nav;
+}
+.danh-muc-con{
+  a{
+    border-bottom: 1px dotted #000000;
+  }
+  ul{
+    background-color: @color-li;
+  }
+  .fa{
+      color:red;
+  }
+}
+.tai-lieu-noi-bat{
+  background:@color-ul;
+  
+}
+.slider {
+  margin-bottom: 20px;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  text-align: center;
+  .thumbnail {
+    border: none;
+    
+    margin: 5px;
+    padding: 1px;
+  }
+  a.thumbnail{
+    &:hover,&:focus,&:active{
+      border: 1px solid #4c9ed9;
+    }
+  }
+  p > a {
+    font-family: arial;
+    font-size: auto;
+    margin-left: 9px;
+    &:hover{
+       color: #4c9ed9;
+    }
+  }
+
+}
+.items {
+  .thumbnail{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .caption{
+    background-color: #cccccc;
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 3px;
+  }
+}
+footer{
+  border-top: 2px solid @color-nav;
+  background-color: #cccccc;
+  a.list-group-item{
+      color:#000000;
+      &:hover,&:focus,&:active{
+        background: none;
+        text-decoration: underline;
+      }
+  }
+  .list-group{
+    padding-top: 10px;
+    span{
+      margin-left: 10px;
+    }
+    .fa-google-plus-official{
+      color: red;
+    }
+    .fa-facebook-official{
+      color:blue;
+    }
+  }
+}
+.list-group-item{
+  padding-bottom: 5px;
+  background: none;
+  border: none;
+}
+// detail
+.bai-viet{
+  .media{
+    border-bottom: 1px dotted #000;
+  }
+}
+.comment{
+    margin-top: 10px;
+  .media{
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+  }
+}

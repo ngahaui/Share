@@ -1,0 +1,175 @@
+h3 {
+  margin: 2px;
+  padding: 5px;
+  color: #ffffff;
+}
+.navbar-default {
+  background: #4caf50;
+  border: none;
+  height: auto;
+}
+.navbar-default .btn-link {
+  padding-top: 5px;
+  color: #ffffff;
+}
+.navbar-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.search-box {
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  height: 38px;
+  background-color: #dadada;
+}
+.search-box:hover,
+.search-box:active,
+.search-box:focus {
+  border: 1px solid #fe9b9b;
+  box-shadow: 2px #fe9b9b;
+}
+.search-box:hover .search-btn,
+.search-box:active .search-btn,
+.search-box:focus .search-btn {
+  color: #fe9b9b;
+}
+.search-box input[type=text] {
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0;
+  background: transparent;
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  color: #aaa;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 5px;
+  color: #fe9b9b;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.danh-muc {
+  background: #4caf50;
+}
+.danh-muc-con a {
+  border-bottom: 1px dotted #000000;
+}
+.danh-muc-con ul {
+  background-color: #e7f6fe;
+}
+.danh-muc-con .fa {
+  color: red;
+}
+.tai-lieu-noi-bat {
+  background: #1882b8;
+}
+.slider {
+  margin-bottom: 20px;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.slider .thumbnail {
+  border: none;
+  margin: 5px;
+  padding: 1px;
+}
+.slider a.thumbnail:hover,
+.slider a.thumbnail:focus,
+.slider a.thumbnail:active {
+  border: 1px solid #4c9ed9;
+}
+.slider p > a {
+  font-family: arial;
+  font-size: auto;
+  margin-left: 9px;
+}
+.slider p > a:hover {
+  color: #4c9ed9;
+}
+.items .thumbnail {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.items .caption {
+  background-color: #cccccc;
+  padding: 5px;
+  margin-right: 2px;
+  margin-left: 3px;
+}
+footer {
+  border-top: 2px solid #4caf50;
+  background-color: #cccccc;
+}
+footer a.list-group-item {
+  color: #000000;
+}
+footer a.list-group-item:hover,
+footer a.list-group-item:focus,
+footer a.list-group-item:active {
+  background: none;
+  text-decoration: underline;
+}
+footer .list-group {
+  padding-top: 10px;
+}
+footer .list-group span {
+  margin-left: 10px;
+}
+footer .list-group .fa-google-plus-official {
+  color: red;
+}
+footer .list-group .fa-facebook-official {
+  color: blue;
+}
+.list-group-item {
+  padding-bottom: 5px;
+  background: none;
+  border: none;
+}
+.bai-viet .media {
+  border-bottom: 1px dotted #000;
+}
+.comment {
+  margin-top: 10px;
+}
+.comment .media {
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+#go-to-top {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #aad450;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  top: auto;
+  left: auto;
+  right: 15px;
+  bottom: 65px;
+  cursor: pointer;
+  z-index: 99999;
+}
+.container{
+  margin-top:15px;
+}
+/*# sourceMappingURL=style.css.map */
